@@ -44,7 +44,7 @@ describe("HelloWorldController", () => {
     expect(instance.res2num(num1, num2)).toBe(10);
   });
 
-  it("should return 20", () => {
+  it("should return 75", () => {
     const instance = PlatformTest.get<HelloWorldController>(HelloWorldController);
     // const instance = PlatformTest.invoke<HelloWorldController>(HelloWorldController); // get fresh instance
     jest.spyOn(instance, "mul2num");
